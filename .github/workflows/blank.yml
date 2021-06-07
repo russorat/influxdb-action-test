@@ -9,3 +9,8 @@ jobs:
         uses: actions/checkout@v2
       - name: Setup InfluxDB
         uses: russorat/influxdb-action@main
+        with:
+          influxdb_org: organization
+          influxdb_user: user
+          influxdb_password: password
+          influxdb_bucket: bucket
