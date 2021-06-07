@@ -9,3 +9,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Setup InfluxDB
         uses: russorat/influxdb-action@main
+        with:
+          influxdb_version: latest
+          influxdb_start: false
