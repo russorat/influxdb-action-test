@@ -10,5 +10,5 @@ jobs:
       - name: Setup InfluxDB
         uses: russorat/influxdb-action@main
         with:
-          influxdb_version: latest
+          influxdb_version: nightly
           influxdb_start: false
